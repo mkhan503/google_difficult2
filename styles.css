@@ -1,0 +1,77 @@
+header{
+    display: flex;
+}
+
+img{
+    vertical-align: middle;
+}
+
+#google_logo img{
+    width: 95px;
+    margin-top: 25px;
+    margin-left:20px;
+}
+
+#search{
+    border:1px solid lightgray;
+    width:650px;
+    height: 40px;
+    border-radius: 25px;
+    margin-top:20px;
+    margin-left: 20px;
+    
+}
+
+#search:hover,
+#search:focus-within{
+    box-shadow: 3px 3px 8px lightgrey;
+}
+
+#search img{
+    padding-left:15px;
+    padding-right:5px;
+}
+
+#mic{
+    border-left: 1px solid rgb(206, 195, 195);
+    
+}
+
+#cancel,
+#mag_glass{
+    opacity: 40%;
+    
+    
+}
+
+#search_bar{
+    border-width:0px;
+    width:480px;
+    margin-top: 10px;
+    margin-left:20px;
+}
+
+#search_bar:focus-visible{
+    
+    outline: 0px;
+}
+
+
+
+#mid{
+    display:flex;
+    flex-direction: column;
+}
+
+#mic{
+    height:20px;
+}
+
+#tabs{
+    display:grid;
+    grid-template-columns: repeat(7, 100px);
+    justify-items: center;
+    text-align: center;
+    background-color: aqua;
+}
+
