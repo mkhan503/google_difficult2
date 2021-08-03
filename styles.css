@@ -120,11 +120,6 @@ img{
     }
 }
 
-
-
-
-
-
 #sign_in_area a{
     display: inline-block;
     margin: 0px 8px;
@@ -144,6 +139,14 @@ img{
 #signin:hover{
     box-shadow: 1px 1px 5px #1a73e8;
 
+}
+
+main{
+   
+    width: 700px;
+    margin-left:150px;
+    
+    
 }
 
 
