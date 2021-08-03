@@ -2,6 +2,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin:0px;
     padding:0px;
+    font-size:14px;
+    
 }
 
 header{
@@ -145,9 +147,91 @@ main{
    
     width: 700px;
     margin-left:150px;
+     
+}
+
+#results{
+    margin-top:25px;
+}
+
+#results a{
+    text-decoration: none;
+}
+
+a h3:hover{
+    text-decoration: underline;
+}
+
+
+.address{
+    
+    color:black;
+    text-decoration: none;
+
+    
+}
+
+.search_results{
+    margin-bottom:50px;
+    
     
     
 }
+
+#people_ask{
+    margin-bottom:20px;
+  
+}
+
+.website_head,
+h3
+{
+    font-size:20px;
+    font-weight: lighter;
+    
+}
+
+.describe,
+.website_head,
+.address{
+    
+    margin-bottom: -13px;
+
+}
+
+.describe{
+    line-height: 1.58;
+}
+
+#people_ask p,
+#related_searches p{
+    font-size:16px;
+}
+
+.lower_border{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 9px;
+    border-bottom: 1px solid rgb(218, 215, 215);
+    margin-top: -2px;
+}
+
+
+
+#feedback{
+    font-size: 12px !important;
+    opacity: 70%;
+    position:relative;
+    left:650px;
+    bottom:25px;
+    background-color: white;
+    padding-left:5px;
+    
+}
+
+
+
+
 
 
 
