@@ -14,6 +14,8 @@ img{
     vertical-align: middle;
 }
 
+
+
 #google_logo img{
     width: 95px;
     margin-top: 25px;
@@ -104,13 +106,24 @@ img{
     justify-self: self-end;
 }
 
+
 #sign_in_area{
     position:fixed;
     right:2px;
     align-self: center;
     margin-right:30px;
-
 }
+
+@media (max-width:1000px){
+    #sign_in_area{
+    display:none;
+    }
+}
+
+
+
+
+
 
 #sign_in_area a{
     display: inline-block;
@@ -132,4 +145,6 @@ img{
     box-shadow: 1px 1px 5px #1a73e8;
 
 }
+
+
 
