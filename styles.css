@@ -276,21 +276,32 @@ h3
 }
 
 #suggestions{
+   width:fit-content;
+   margin:auto;
+   margin-top: 15px;
+   display: grid;
+   grid-template-columns: 300px 300px;
+   grid-template-rows: repeat(3, 50px);
+   text-align: center;
+   
+}
 
-    display:grid;
-    grid-template-columns: 200px 200px;
-    grid-template-rows: 50px 30px 30px;
+.suggestion_name{
+
+    background-image: url(images/outline_search_black_24dp.png);
+    background-repeat: no-repeat;
+    background-color:aquamarine;
+    height:45px;
     
 }
 
-#suggestions a{
-    background-color: pink;
 
-}
 
-#suggestions img{
-    vertical-align: center;
-}
+
+
+
+
+
 
 
 
