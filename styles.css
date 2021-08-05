@@ -143,7 +143,9 @@ img{
 
 }
 
-main{
+main, 
+#location,
+#option_footer {
    
     width: 700px;
     margin-left:150px;
@@ -325,8 +327,105 @@ h3
 #suggestions a:hover{
     text-decoration:underline;
 }
+
+#google_pages{
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+
+
 }
 
+#google_pages img{
+
+    height:30px;
+}
+
+#ten{
+    display: flex;
+    margin-top:9px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+#ten img{
+    height: 18px;
+    margin-bottom: 10px;
+}
+
+
+#ten a{
+    text-decoration: none;  
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-right:2px;
+}
+
+#ten a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    margin-top: 15px;
+    background-color: rgb(233, 232, 232);
+}
+
+footer a{
+    text-decoration: none;
+}
+
+#location{
+    display: flex;
+    border-bottom: 1px solid lightgrey;
+    padding-top:10px;
+    
+    
+    
+}
+
+#country{
+    border-right: 1px solid lightgrey;
+    padding-right:10px;
+    
+    height:35px;
+    margin-bottom: 0px;
+    
+    
+}
+
+#location p{
+    margin-left:10px;
+    
+
+
+}
+
+#option_footer{
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+#option_footer a{
+    color:black;
+    opacity: 70%;
+    margin-left:20px;  
+   
+}
+
+
+
+#location a{
+    color: blue;
+}
+
+#location strong{
+    color: black;
+}
+
+#option_footer a:hover{
+    text-decoration: underline;
+}
 
 
 
